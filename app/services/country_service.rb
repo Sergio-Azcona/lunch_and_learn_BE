@@ -1,5 +1,5 @@
 class CountryService
-  def self.validate_existence(country)
+  def self.validate_name(country)
     parse_json(conn.get("/v3.1/name/#{country}"))
   end
 

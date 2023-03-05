@@ -12,7 +12,7 @@ class Api::V1::RecipesController < ApplicationController
   #     recipies = RecipesFacade.country_search(country)
   #     render json: RecipeSerializer.recipies_index_response(country, recipies)
   #   else #country param  exists
-  #     CountryService.validate_existence(country)
+  #     CountryService.country_exist?(country)
   #     if country.exists? #country DOES exist
   #       recipies = RecipesFacade.country_search(country)
   #         unless recipies.nil?
@@ -27,13 +27,12 @@ class Api::V1::RecipesController < ApplicationController
   # end
 
  
-  unless country 
+  unless country.exists? 
     country = CountryService.all_countries
   else
-    CountryService.validate_existence(country)
-    require 'pry';binding.pry
+    CountryService.country_exist?(country)
+    
   end
-
 
   recipies = RecipesFacade.country_search(country)
 

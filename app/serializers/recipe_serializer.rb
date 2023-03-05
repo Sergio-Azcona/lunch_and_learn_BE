@@ -19,4 +19,10 @@ class RecipeSerializer
             end
     }
   end  
+
+  def self.no_recipes_found
+    {
+      "data": []
+    }
+  end
 end
