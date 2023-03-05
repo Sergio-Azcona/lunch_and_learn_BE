@@ -9,7 +9,7 @@ RSpec.describe 'Recipes Service' do
         .with(query: {'app_id' => ENV['app_id'], 'app_key' => ENV['app_key'],'type' => 'public', 'q'=> country })
         .to_return(status: 200, body: json_response)
 
-      response = RecipesService.recipe_index_by_country(country)
+      response =  JSON.parse(json_response, symbolize_names: true)
 
       expect(response).to be_an(Hash)
       expect(response).to have_key(:hits)
