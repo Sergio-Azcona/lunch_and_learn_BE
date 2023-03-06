@@ -17,10 +17,15 @@ RSpec.describe 'Places Service' do
       expect(response[:features]).to be_a(Array)
 
       response[:features].each do |feature|
-        require 'pry';binding.pry
+        # require 'pry';binding.pry
         expect(feature).to have_key(:properties)
+        expect(feature[:properties]).to be_a(Hash)
 
+        expect(feature[:properties]).to have_key(:name)
+        expect(feature[:properties]).to have_key(:address_line2)
+        expect(feature[:properties]).to have_key(:place_id)
 
+      end
     end
   end
 end

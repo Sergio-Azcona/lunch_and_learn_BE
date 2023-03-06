@@ -1,0 +1,184 @@
+{
+  "data": [
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Palais du Louvre",
+              "address": "Avenue du Général Lemonnier, 75001 Paris, France",
+              "place_id": "518d1bce0ed2af02405927f526f2356e4840f00101f90159c731000000000092031050616c616973206475204c6f75767265"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Hôtel de la Marine",
+              "address": "Place de la Concorde, 75008 Paris, France",
+              "place_id": "51388772e2a895024059b124d037f76e4840f00101f901d62f10000000000092031348c3b474656c206465206c61204d6172696e65"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Hôtel de Crillon",
+              "address": "10 Place de la Concorde, 75008 Paris, France",
+              "place_id": "513795ff591692024059be42a96c0d6f4840f00101f901c42f10000000000092031148c3b474656c206465204372696c6c6f6e"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Palais de l'Élysée",
+              "address": "Rue de l'Élysée, 75008 Paris, France",
+              "place_id": "51c6816f3050880240593a9aefa3666f4840f00101f901c32f10000000000092031450616c616973206465206c27c3896c7973c3a965"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Ministère de la Justice",
+              "address": "Place Vendôme, 75001 Paris, France",
+              "place_id": "5160eb9c0c8fa002405963a964f3126f4840f00102f90121a63a03000000009203184d696e697374c3a87265206465206c61204a757374696365"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Palais Brongniart",
+              "address": "Place de la Bourse, 75002 Paris, France",
+              "place_id": "51c7ed31da1ebb024059a303dff53f6f4840f00102f901830042030000000092031150616c6169732042726f6e676e69617274"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Chapelle expiatoire",
+              "address": "Rue d'Anjou, 75008 Paris, France",
+              "place_id": "51be3fa49003950240597e41ec5ad56f4840f00102f901b5d706040000000092031343686170656c6c65206578706961746f697265"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Jules Ferry",
+              "address": "Esplanade des Feuillants, 75001 Paris, France",
+              "place_id": "51c77646c829a602405995fb43d58d6e4840f00102f9013b4421040000000092030b4a756c6573204665727279"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Statue équestre de Louis XIV",
+              "address": "Place des Victoires, 75002 Paris, France",
+              "place_id": "512a54c30fb9ba02405913f49000d16e4840f00102f901df56fb150000000092031d53746174756520c3a971756573747265206465204c6f75697320584956"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Palais Royal",
+              "address": "Galerie de Valois, 75001 Paris, France",
+              "place_id": "51842d040ffeb10240597c59da9b876e4840f00101f901305c32000000000092030c50616c61697320526f79616c"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Hôtel de Plessis-Bellière",
+              "address": "Place de la Concorde, 75008 Paris, France",
+              "place_id": "51a00e0315c4920240593af8f909066f4840f00101f901c62f10000000000092031b48c3b474656c20646520506c65737369732d42656c6c69c3a87265"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Palais Cambon",
+              "address": "Rue de Mondovi, 75001 Paris, France",
+              "place_id": "5169e39eb2069a024059c17d5cdafd6e4840f00101f901fc4608000000000092030d50616c6169732043616d626f6e"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Ancien hôtel de Latour-Maubourg",
+              "address": "Place Vendôme, 75001 Paris, France",
+              "place_id": "51c8b4d8d888a4024059adba4cf8f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Hôtel Saint-Florentin",
+              "address": "Rue de Mondovi, 75001 Paris, France",
+              "place_id": "51b1b997bec59702405969a8e875f06e4840f00102f9018fb03a030000000092031648c3b474656c205361696e742d466c6f72656e74696e"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Théâtre Daunou",
+              "address": "Rue Daunou, 75002 Paris, France",
+              "place_id": "5101bfa97ea2a70240591f32932a446f4840f00102f901a61f4303000000009203105468c3a9c3a2747265204461756e6f75"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Hôtel de Pontalba",
+              "address": "Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+              "place_id": "5118b13bb3fa8b02405938e0bf54466f4840f00102f901c5f7ff030000000092031248c3b474656c20646520506f6e74616c6261"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Hôtel Perrinet de Jars",
+              "address": "Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+              "place_id": "51c4014cac1c8f02405989d06c8f3a6f4840f00102f9016df8ff030000000092031748c3b474656c2050657272696e6574206465204a617273"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Hôtel de Coislin",
+              "address": "Rue Royale, 75008 Paris, France",
+              "place_id": "51bab7a2876e930240598f160570fe6e4840f00102f9017c0300040000000092031148c3b474656c20646520436f69736c696e"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Statue équestre de Jeanne D'Arc",
+              "address": "Place Saint-Augustin, 75008 Paris, France",
+              "place_id": "51c52120d5398e0240599b1b2d8e0e704840f00102f901a7fd05040000000092032053746174756520c3a971756573747265206465204a65616e6e65204427417263"
+          }
+      },
+      {
+          "id": "null",
+          "type": "place",
+          "attributes": {
+              "name": "Obélisque de Louxor",
+              "address": "Place de la Concorde, 75008 Paris, France",
+              "place_id": "5175f585ebac91024059a2e316efc76e4840f00102f901d6f05804000000009203144f62c3a96c6973717565206465204c6f75786f72"
+          }
+      }
+  ]
+}
