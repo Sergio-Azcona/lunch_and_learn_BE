@@ -15,7 +15,6 @@ class CountriesFacade
 
 
   def self.validate_input?(country)
-    # require 'pry';binding.pry
     if country.nil? 
       self.return_random_country 
     else

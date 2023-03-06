@@ -3,7 +3,7 @@ class RecipesService
     response = conn.get('/api/recipes/v2?') do |search|
       search.params['q'] = country 
     end
-    parse_json(response)
+    parse_json(response) if response.status == 200
   end
 
   def self.parse_json(response)

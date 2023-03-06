@@ -4,7 +4,7 @@ RSpec.describe 'Recipes Service' do
   describe 'return an index of recipes for a given country' do
     it 'responds with expected keys and datatypes' do
       country = 'thailand'
-      json_response = File.read('spec/fixtures/recipes_index_for_thailand.json')
+      json_response = File.read('spec/fixtures/service_responses/recipes/recipes_index_for_thailand.json')
       stub_request(:get, 'https://api.edamam.com/api/recipes/v2?')
         .with(query: {'app_id' => ENV['app_id'], 'app_key' => ENV['app_key'],'type' => 'public', 'q'=> country })
         .to_return(status: 200, body: json_response)

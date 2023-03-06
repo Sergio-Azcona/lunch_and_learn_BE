@@ -3,17 +3,17 @@ require 'rails_helper'
 RSpec.describe 'Recipes API Responses' do
 
   describe 'search by country' do
-    describe 'successful response' do      
+    describe 'successful response' do  
       it 'returns the expected top level and attributes keys' do 
         country = 'thailand'
-        json_response = File.read('spec/fixtures/recipes_index_response_for_thailand.json')
+        json_response = File.read('spec/fixtures/request_responses/recipes_index_response_for_thailand.json')
+        
         stub_request(:get, 'https://localhost:3000/api/v1/recipes?')
           .with(query: {'country'=> country })
           .to_return(status: 200, body: json_response)        
         
         response =  JSON.parse(json_response, symbolize_names: true)
 
-        # require 'pry';binding.pry
         expect(response).to be_a(Hash)
         expect(response).to have_key(:data)
         expect(response[:data]).to be_a(Array)
@@ -39,7 +39,7 @@ RSpec.describe 'Recipes API Responses' do
 
       it 'attribute keys return the expected value datatype; country matches the value passed in' do
         country = 'thailand'
-        json_response = File.read('spec/fixtures/recipes_index_response_for_thailand.json')
+        json_response = File.read('spec/fixtures/request_responses/recipes_index_response_for_thailand.json')
         stub_request(:get, 'https://localhost:3000/api/v1/recipes?')
           .with(query: {'country'=> country })
           .to_return(status: 200, body: json_response)        
@@ -56,4 +56,8 @@ RSpec.describe 'Recipes API Responses' do
       end
     end
   end
+
+
+
+
 end
