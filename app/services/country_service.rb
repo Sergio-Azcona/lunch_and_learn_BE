@@ -1,9 +1,10 @@
 class CountryService
   def self.validate_name(country)
-    parse_json(conn.get("/v3.1/name/#{country}"))
+    response = conn.get("/v3.1/name/#{country}")    
+    parse_json(response) if response.status == 200
   end
 
-  def.all_countries
+  def self.all_countries
     parse_json(conn.get("/v3.1/all"))
   end
 
