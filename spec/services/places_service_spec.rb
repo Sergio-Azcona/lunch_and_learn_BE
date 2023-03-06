@@ -4,7 +4,7 @@ RSpec.describe 'Places Service' do
   describe 'return an index of places for a given coordinate' do
     it 'responds with expected keys and datatypes' do
 
-      json_response = File.read('spec/fixtures/service_responses/places/resturants_near_Ridgefield.json')
+      json_response = File.read('spec/fixtures/service_responses/places/final_sights_paris.json')
       stub_request(:get, 'https://api.geoapify.com/v2/places?')
       .with(query: {'apiKey' => ENV['apiKey'],'categories' => 'catering.restaurant','filter'=> 'circle:-73.4975,41.2841,12000'})      
       .to_return(status: 200, body: json_response)
