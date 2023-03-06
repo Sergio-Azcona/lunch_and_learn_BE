@@ -6,7 +6,7 @@ class Api::V1::RecipesController < ApplicationController
     
     recipies = RecipesFacade.country_search(valid_country) if valid_country.present?
     
-    if valid_country && recipies
+    if valid_country && recipies.present?
       render json: RecipeSerializer.recipies_index_response(valid_country, recipies)
     else
       render json: RecipeSerializer.no_recipes_found

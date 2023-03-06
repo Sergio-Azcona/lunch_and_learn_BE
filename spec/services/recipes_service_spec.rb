@@ -14,6 +14,7 @@ RSpec.describe 'Recipes Service' do
       expect(response).to be_an(Hash)
       expect(response).to have_key(:hits)
       expect(response[:hits]).to be_an(Array)
+      expect(response[:hits].present?).to eq(true)  
 
       response[:hits].each do |recipes|
         expect(recipes).to be_an(Hash)
@@ -26,6 +27,23 @@ RSpec.describe 'Recipes Service' do
         expect(recipes[:recipe]).to have_key(:url)
         expect(recipes[:recipe][:url]).to be_a(String)
       end
+    end
+
+    it 'responds with no recipes' do
+      country = 'thailand'
+      json_response = File.read('spec/fixtures/service_responses/recipes/recipes_empty_service_response.json')
+      stub_request(:get, 'https://api.edamam.com/api/recipes/v2?')
+        .with(query: {'app_id' => ENV['app_id'], 'app_key' => ENV['app_key'],'type' => 'public', 'q'=> country })
+        .to_return(status: 200, body: json_response)
+
+      response =  JSON.parse(json_response, symbolize_names: true)
+  
+      expect(response).to be_an(Hash)
+      expect(response).to have_key(:hits)
+      expect(response[:hits]).to be_an(Array)
+
+      expect(response[:hits].present?).to eq(false)    
+      expect(response[:hits]).to eq([])
     end
   end
 end
