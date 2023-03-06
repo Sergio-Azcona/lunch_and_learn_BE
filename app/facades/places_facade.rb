@@ -6,7 +6,7 @@ class PlacesFacade
       
       response[:features].map do |data|
         # require 'pry';binding.pry
-        Place.new(data)
+        TouristSight.new(data)
       end
   end
 end

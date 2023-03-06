@@ -1,11 +1,12 @@
 class TouristSerializer
 
   def self.capital_city_sights(sights)
+    # require 'pry';binding.pry
     {
       "data": sights.map do |sight|
             {
             "id": "null",
-            "type": sight.class.to_s.downcase,
+            "type": "tourist_sight",#sight.class.to_s.downcase,
             "attributes": 
                         {
                         "name": sight.name,

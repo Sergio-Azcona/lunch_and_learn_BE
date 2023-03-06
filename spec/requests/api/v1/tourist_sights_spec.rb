@@ -22,7 +22,7 @@ RSpec.describe 'Tourist Sights API Responses' do
 
           expect(recipe).to have_key(:type)
           expect(recipe[:type]).to be_a(String)
-          expect(recipe[:type]).to eq('place')
+          expect(recipe[:type]).to eq('tourist_sight')
 
           expect(recipe).to have_key(:attributes)
           expect(recipe[:attributes]).to be_a(Hash)
