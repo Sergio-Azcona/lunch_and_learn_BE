@@ -30,9 +30,12 @@ RSpec.describe 'Tourist Sights API Responses' do
           expect(recipe[:attributes]).to have_key(:name)
           expect(recipe[:attributes]).to have_key(:address)
           expect(recipe[:attributes]).to have_key(:place_id)
-          # require 'pry';binding.
-          
-          
+          # require 'pry';binding.pry
+          expect(recipe[:attributes][:name]).to be_a(String)
+
+          expect(recipe[:attributes][:address]).to be_a(String)
+          expect(recipe[:attributes][:place_id]).to be_a(String)
+
 
         end
     end

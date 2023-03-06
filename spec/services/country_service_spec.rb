@@ -16,9 +16,10 @@ RSpec.describe 'Country Service' do
       expect(response.count).to eq(1) #one element in the array - ie only one country returned
 
       response.each do |data|
-        expect(response).to be_a(Hash)
+        # require 'pry';binding.pry
+        expect(data).to be_a(Hash)
         expect(data).to have_key(:capital)
-        require 'pry';binding.pry  
+        # require 'pry';binding.pry  
         expect(data[:capital]).to be_a(Array)
         expect(data[:capital].count).to eq(1) #only one value - 1 capital
         expect(data[:capital][0]).to be_a(String)
