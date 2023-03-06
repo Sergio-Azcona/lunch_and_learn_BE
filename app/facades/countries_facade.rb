@@ -23,7 +23,9 @@ class CountriesFacade
   end
 
 
-  # def create_country_object(data)
-  #   data.map { |info| Country.new(info) }
-  # end
+  def self.capital_city_coordinates(country)
+    response = CountryService.validate_name(country)
+      # Country.capital_city_info(response)
+      response.map { |info| Country.new(info) }
+  end
 end
