@@ -1,0 +1,1321 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palais du Louvre",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75001",
+                "district": "Paris",
+                "suburb": "1st Arrondissement",
+                "city_block": "Quartier Saint-Germain-l'Auxerrois",
+                "street": "Avenue du Général Lemonnier",
+                "lon": 2.3368747442628885,
+                "lat": 48.86147245,
+                "formatted": "Louvre Palace, Avenue du Général Lemonnier, 75001 Paris, France",
+                "address_line1": "Louvre Palace",
+                "address_line2": "Avenue du Général Lemonnier, 75001 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.tourism",
+                    "heritage",
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "tourism.sights.castle",
+                    "wheelchair",
+                    "wheelchair.yes"
+                ],
+                "details": [
+                    "details",
+                    "details.contact",
+                    "details.facilities",
+                    "details.heritage",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Palais du Louvre",
+                        "image": "http://upload.wikimedia.org/wikipedia/commons/6/66/Louvre_Museum_Wikimedia_Commons.jpg",
+                        "phone": "+33 1 40205050",
+                        "osm_id": -3262297,
+                        "name:de": "Louvre",
+                        "name:en": "Louvre Palace",
+                        "name:ja": "ルーブル美術館",
+                        "name:pl": "Luwr",
+                        "name:ru": "Лувр",
+                        "name:zh": "卢浮宫博物馆",
+                        "tourism": "attraction",
+                        "website": "https://www.louvre.fr/",
+                        "building": "castle",
+                        "heritage": 2,
+                        "historic": "castle",
+                        "osm_type": "r",
+                        "wikidata": "Q1075988",
+                        "addr:city": "Paris",
+                        "wikipedia": "fr:Palais du Louvre",
+                        "importance": "international",
+                        "wheelchair": "yes",
+                        "castle_type": "stately",
+                        "addr:postcode": 75001,
+                        "roof:material": "metal",
+                        "image:panorama": "http://upload.wikimedia.org/wikipedia/commons/d/d2/Jardin_du_Carrousel.jpg",
+                        "toilets:wheelchair": "yes"
+                    }
+                },
+                "place_id": "518d1bce0ed2af02405927f526f2356e4840f00101f90159c731000000000092031050616c616973206475204c6f75767265"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.33584987226954,
+                    48.861021298429755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hôtel de la Marine",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Place de la Concorde",
+                "lon": 2.3235045127976046,
+                "lat": 48.8669402,
+                "formatted": "Hôtel de la Marine, Place de la Concorde, 75008 Paris, France",
+                "address_line1": "Hôtel de la Marine",
+                "address_line2": "Place de la Concorde, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.tourism",
+                    "heritage",
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.heritage",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hôtel de la Marine",
+                        "osm_id": -1060822,
+                        "ref:mhs": "PA00088817",
+                        "tourism": "attraction",
+                        "website": "http://www.hotel-de-la-marine.paris/",
+                        "alt_name": "Hôtel du Garde-Meuble;Garde-Meuble de la Reine",
+                        "building": "government",
+                        "heritage": 2,
+                        "historic": "manor",
+                        "osm_type": "r",
+                        "wikidata": "Q2059518",
+                        "addr:city": "Paris",
+                        "architect": "Ange-Jacques Gabriel;Jacques-Germain Soufflot",
+                        "wikipedia": "fr:Hôtel de la Marine",
+                        "addr:street": "Place de la Concorde",
+                        "old_landuse": "military",
+                        "addr:postcode": 75008,
+                        "heritage:operator": "mhs",
+                        "wikimedia_commons": "Category:Hôtel de la Marine (Paris)"
+                    }
+                },
+                "place_id": "51388772e2a895024059b124d037f76e4840f00101f901d62f10000000000092031348c3b474656c206465206c61204d6172696e65"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3230760279847367,
+                    48.86691949523209
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hôtel de Crillon",
+                "old_name": "Hôtel d’Aumont;Hôtel de Courlande",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Place de la Concorde",
+                "housenumber": "10",
+                "lon": 2.3213665307395894,
+                "lat": 48.86762185,
+                "formatted": "Hôtel de Crillon, 10 Place de la Concorde, 75008 Paris, France",
+                "address_line1": "Hôtel de Crillon",
+                "address_line2": "10 Place de la Concorde, 75008 Paris, France",
+                "categories": [
+                    "accommodation",
+                    "accommodation.hotel",
+                    "building",
+                    "building.accommodation",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.accommodation",
+                    "details.building",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hôtel de Crillon",
+                        "stars": 5,
+                        "closed": "yes",
+                        "osm_id": -1060804,
+                        "tourism": "hotel",
+                        "website": "https://www.rosewoodhotels.com/en/hotel-de-crillon",
+                        "alt_name": "Hôtel des Monnaies",
+                        "building": "yes",
+                        "historic": "manor",
+                        "old_name": "Hôtel d’Aumont;Hôtel de Courlande",
+                        "osm_type": "r",
+                        "wikidata": "Q692768",
+                        "architect": "Jacques-Ange Gabriel",
+                        "wikipedia": "fr:Hôtel de Crillon",
+                        "start_date": "1909-03-01..1909-03-31",
+                        "addr:street": "place de la Concorde",
+                        "addr:postcode": 75008,
+                        "addr:housename": "Hôtel le Crillon",
+                        "addr:housenumber": 10
+                    }
+                },
+                "place_id": "513795ff591692024059be42a96c0d6f4840f00101f901c42f10000000000092031148c3b474656c206465204372696c6c6f6e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3213316947100355,
+                    48.86759718193706
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palais de l'Élysée",
+                "old_name": "Hôtel d'Évreux",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Rue de l'Élysée",
+                "lon": 2.316068734550804,
+                "lat": 48.87037435,
+                "formatted": "Élysée Palace, Rue de l'Élysée, 75008 Paris, France",
+                "address_line1": "Élysée Palace",
+                "address_line2": "Rue de l'Élysée, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.office",
+                    "building.tourism",
+                    "office",
+                    "office.government",
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "tourism.sights.castle"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Palais de l'Élysée",
+                        "height": 12,
+                        "office": "government",
+                        "osm_id": -1060803,
+                        "name:br": "Palez An Élysée",
+                        "name:de": "Élysée-Palast",
+                        "name:en": "Élysée Palace",
+                        "name:fr": "Palais de l'Élysée",
+                        "name:hi": "एलिजे महल",
+                        "name:it": "Palazzo dell'Eliseo",
+                        "name:pt": "Palácio do Eliseu",
+                        "name:ru": "Елисейский дворец",
+                        "name:zh": "爱丽舍宫",
+                        "tourism": "attraction",
+                        "website": "https://www.elysee.fr/",
+                        "alt_name": "Palais du Président de la République Française",
+                        "building": "office",
+                        "end_date": 1722,
+                        "historic": "castle",
+                        "old_name": "Hôtel d'Évreux",
+                        "osm_type": "r",
+                        "wikidata": "Q188190",
+                        "architect": "Armand-Claude Mollet",
+                        "wikipedia": "fr:Palais de l'Élysée",
+                        "government": "presidency",
+                        "start_date": 1718,
+                        "castle_type": "palace",
+                        "description": "Résidence officielle du président de la République française",
+                        "architect:wikidata": "Q2861805",
+                        "architect:wikipedia": "fr:Armand Claude Mollet",
+                        "opening_hours:signed": "no"
+                    }
+                },
+                "place_id": "51c6816f3050880240593a9aefa3666f4840f00101f901c32f10000000000092031450616c616973206465206c27c3896c7973c3a965"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3165591987637724,
+                    48.87031983565653
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ministère de la Justice",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75001",
+                "district": "Paris",
+                "suburb": "1st Arrondissement",
+                "city_block": "Quartier Vendôme",
+                "street": "Place Vendôme",
+                "lon": 2.3284917053951233,
+                "lat": 48.8677371,
+                "formatted": "Ministère de la Justice, Place Vendôme, 75001 Paris, France",
+                "address_line1": "Ministère de la Justice",
+                "address_line2": "Place Vendôme, 75001 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.office",
+                    "office",
+                    "office.government",
+                    "office.government.ministry",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.contact",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Ministère de la Justice",
+                        "layer": 1,
+                        "office": "government",
+                        "osm_id": 54175265,
+                        "building": "yes",
+                        "historic": "manor",
+                        "osm_type": "w",
+                        "wikidata": "Q3145763",
+                        "government": "ministry",
+                        "contact:city": "Paris",
+                        "contact:phone": "+33 1 44 77 60 60",
+                        "contact:street": "Place Vendôme",
+                        "contact:website": "https://www.justice.gouv.fr/",
+                        "contact:postcode": 75001,
+                        "contact:housenumber": 13
+                    }
+                },
+                "place_id": "5160eb9c0c8fa002405963a964f3126f4840f00102f90121a63a03000000009203184d696e697374c3a87265206465206c61204a757374696365"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.328397844828416,
+                    48.86776583113785
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palais Brongniart",
+                "old_name": "Palais de la Bourse",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75002",
+                "district": "Paris",
+                "suburb": "2nd Arrondissement",
+                "city_block": "Quartier Vivienne",
+                "street": "Place de la Bourse",
+                "lon": 2.3413673791950385,
+                "lat": 48.8691395,
+                "formatted": "Palais Brongniart, Place de la Bourse, 75002 Paris, France",
+                "address_line1": "Palais Brongniart",
+                "address_line2": "Place de la Bourse, 75002 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "heritage",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.heritage",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Palais Brongniart",
+                        "osm_id": 54657155,
+                        "name:de": "Pariser Börse",
+                        "name:uk": "Паризька біржа",
+                        "ref:mhs": "PA00086010",
+                        "website": "https://www.palaisbrongniart.com/",
+                        "building": "yes",
+                        "heritage": 3,
+                        "historic": "monument",
+                        "old_name": "Palais de la Bourse",
+                        "osm_type": "w",
+                        "wikidata": "Q1854102",
+                        "architect": "Alexandre-Théodore Brongniart",
+                        "wikipedia": "fr:Palais Brongniart",
+                        "start_date": 1825,
+                        "heritage:operator": "mhs",
+                        "architect:wikidata": "Q1342645",
+                        "architect:wikipedia": "fr:Alexandre-Théodore Brongniart",
+                        "mhs:inscription_date": "1987-10-27"
+                    }
+                },
+                "place_id": "51c7ed31da1ebb024059a303dff53f6f4840f00102f901830042030000000092031150616c6169732042726f6e676e69617274"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3413674398886744,
+                    48.8691394175469
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chapelle expiatoire",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Rue d'Anjou",
+                "lon": 2.3227584064109164,
+                "lat": 48.87369815,
+                "formatted": "Chapelle expiatoire, Rue d'Anjou, 75008 Paris, France",
+                "address_line1": "Chapelle expiatoire",
+                "address_line2": "Rue d'Anjou, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.place_of_worship",
+                    "fee",
+                    "heritage",
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.place_of_worship",
+                    "tourism.sights.place_of_worship.chapel"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.heritage",
+                    "details.historic",
+                    "details.place_of_worship",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "fee": "full:6;discount:5;free: under 26, handicap, press, unemployment",
+                        "name": "Chapelle expiatoire",
+                        "osm_id": 67557301,
+                        "amenity": "place_of_worship",
+                        "ref:mhs": "PA00088809",
+                        "building": "chapel",
+                        "heritage": 2,
+                        "historic": "yes",
+                        "osm_type": "w",
+                        "religion": "christian",
+                        "wikidata": "Q1062732",
+                        "architect": "Charles Percier;Fontaine",
+                        "wikipedia": "fr:Chapelle expiatoire",
+                        "start_date": 1826,
+                        "contact:city": "Paris",
+                        "denomination": "catholic",
+                        "service_times": "Jan 21 10:30",
+                        "contact:street": "Rue Pasquier",
+                        "contact:website": "http://www.chapelle-expiatoire-paris.fr/",
+                        "contact:postcode": 75008,
+                        "heritage:operator": "mhs",
+                        "architect:wikidata": "Q969714",
+                        "architect:wikipedia": "fr:Charles Percier",
+                        "contact:housenumber": 29,
+                        "mhs:inscription_date": "1914-07-22"
+                    }
+                },
+                "place_id": "51be3fa49003950240597e41ec5ad56f4840f00102f901b5d706040000000092031343686170656c6c65206578706961746f697265"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3227607059597792,
+                    48.87369858299188
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Jules Ferry",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75001",
+                "district": "Paris",
+                "suburb": "1st Arrondissement",
+                "city_block": "Quartier Saint-Germain-l'Auxerrois",
+                "street": "Esplanade des Feuillants",
+                "lon": 2.331134414571121,
+                "lat": 48.863703349999994,
+                "formatted": "Jules Ferry, Esplanade des Feuillants, 75001 Paris, France",
+                "address_line1": "Jules Ferry",
+                "address_line2": "Esplanade des Feuillants, 75001 Paris, France",
+                "categories": [
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.attraction.artwork",
+                    "tourism.sights",
+                    "tourism.sights.memorial"
+                ],
+                "details": [
+                    "details.artwork",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Jules Ferry",
+                        "image": "http://upload.wikimedia.org/wikipedia/commons/0/08/%D0%96%D1%8E%D0%BB%D1%8C_%D0%92%D0%B5%D1%80%D0%BD.jpg",
+                        "osm_id": 69289019,
+                        "tourism": "artwork",
+                        "historic": "memorial",
+                        "material": "marble",
+                        "memorial": "statue",
+                        "osm_type": "w",
+                        "wikidata": "Q13501924",
+                        "artist_name": "Gustave Michel",
+                        "artwork_type": "sculpture",
+                        "artist:wikidata": "Q2363978"
+                    }
+                },
+                "place_id": "51c77646c829a602405995fb43d58d6e4840f00102f9013b4421040000000092030b4a756c6573204665727279"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3311343809608362,
+                    48.86370340175123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Statue équestre de Louis XIV",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75002",
+                "district": "Paris",
+                "suburb": "2nd Arrondissement",
+                "city_block": "Quartier Vivienne",
+                "street": "Place des Victoires",
+                "lon": 2.341173493789764,
+                "lat": 48.86575335,
+                "formatted": "Statue équestre de Louis XIV, Place des Victoires, 75002 Paris, France",
+                "address_line1": "Statue équestre de Louis XIV",
+                "address_line2": "Place des Victoires, 75002 Paris, France",
+                "categories": [
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details",
+                    "details.artwork",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Statue équestre de Louis XIV",
+                        "image": "File:Louis XIV pl des Victoires.jpg",
+                        "osm_id": 368793311,
+                        "name:ko": "루이 14세",
+                        "name:mn": "Людовик XIV",
+                        "name:ru": "Людовик XIV",
+                        "name:zh": "路易十四",
+                        "historic": "monument",
+                        "osm_type": "w",
+                        "wikidata": "Q3497623",
+                        "artist_name": "François-Joseph Bosio",
+                        "artist:wikidata": "Q659429"
+                    }
+                },
+                "place_id": "512a54c30fb9ba02405913f49000d16e4840f00102f901df56fb150000000092031d53746174756520c3a971756573747265206465204c6f75697320584956"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3411732894405946,
+                    48.86575324132732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palais Royal",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75001",
+                "district": "Paris",
+                "suburb": "1st Arrondissement",
+                "city_block": "Quartier du Palais Royal",
+                "street": "Galerie de Valois",
+                "lon": 2.3362042200938715,
+                "lat": 48.863584700000004,
+                "formatted": "Palais Royal, Galerie de Valois, 75001 Paris, France",
+                "address_line1": "Palais Royal",
+                "address_line2": "Galerie de Valois, 75001 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.tourism",
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Palais Royal",
+                        "height": 30,
+                        "osm_id": -3300400,
+                        "name:ru": "Пале-Рояль",
+                        "tourism": "attraction",
+                        "building": "palace",
+                        "historic": "manor",
+                        "osm_type": "r",
+                        "wikidata": "Q329948",
+                        "wikipedia": "fr:Palais-Royal"
+                    }
+                },
+                "place_id": "51842d040ffeb10240597c59da9b876e4840f00101f901305c32000000000092030c50616c61697320526f79616c"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.336910359683033,
+                    48.86351345216369
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hôtel de Plessis-Bellière",
+                "old_name": "Hôtel Pastoret",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Place de la Concorde",
+                "lon": 2.321720132179256,
+                "lat": 48.8673782,
+                "formatted": "Hôtel de Plessis-Bellière, Place de la Concorde, 75008 Paris, France",
+                "address_line1": "Hôtel de Plessis-Bellière",
+                "address_line2": "Place de la Concorde, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hôtel de Plessis-Bellière",
+                        "osm_id": -1060806,
+                        "alt_name": "Hôtel Cartier",
+                        "building": "yes",
+                        "historic": "manor",
+                        "old_name": "Hôtel Pastoret",
+                        "osm_type": "r",
+                        "wikidata": "Q22924693",
+                        "wikipedia": "fr:Hôtel du Plessis-Bellière"
+                    }
+                },
+                "place_id": "51a00e0315c4920240593af8f909066f4840f00101f901c62f10000000000092031b48c3b474656c20646520506c65737369732d42656c6c69c3a87265"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321663059383198,
+                    48.86737179475354
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Palais Cambon",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75001",
+                "district": "Paris",
+                "suburb": "1st Arrondissement",
+                "city_block": "Quartier Vendôme",
+                "street": "Rue de Mondovi",
+                "lon": 2.3257215766564125,
+                "lat": 48.8671284,
+                "formatted": "Palais Cambon, Rue de Mondovi, 75001 Paris, France",
+                "address_line1": "Palais Cambon",
+                "address_line2": "Rue de Mondovi, 75001 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.public_and_civil",
+                    "heritage",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details.heritage",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Palais Cambon",
+                        "osm_id": -542460,
+                        "ref:mhs": "PA00085791",
+                        "building": "civic",
+                        "heritage": 3,
+                        "historic": "manor",
+                        "osm_type": "r",
+                        "wikidata": "Q3292683",
+                        "wikipedia": "fr:Palais Cambon",
+                        "heritage:operator": "mhs",
+                        "mhs:inscription_date": "1993-05-18"
+                    }
+                },
+                "place_id": "5169e39eb2069a024059c17d5cdafd6e4840f00101f901fc4608000000000092030d50616c6169732043616d626f6e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.325208087419402,
+                    48.86712197796033
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ancien hôtel de Latour-Maubourg",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75001",
+                "district": "Paris",
+                "suburb": "1st Arrondissement",
+                "city_block": "Quartier Vendôme",
+                "street": "Place Vendôme",
+                "lon": 2.3306534350427555,
+                "lat": 48.866717300000005,
+                "formatted": "Ancien hôtel de Latour-Maubourg, Place Vendôme, 75001 Paris, France",
+                "address_line1": "Ancien hôtel de Latour-Maubourg",
+                "address_line2": "Place Vendôme, 75001 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "heritage",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details.building",
+                    "details.heritage",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Ancien hôtel de Latour-Maubourg",
+                        "osm_id": -542284,
+                        "ref:mhs": "PA00085828",
+                        "building": "yes",
+                        "heritage": 3,
+                        "historic": "building",
+                        "osm_type": "r",
+                        "wikidata": "Q22920977",
+                        "start_date": "C18",
+                        "heritage:operator": "mhs",
+                        "mhs:inscription_date": "1927-05-06"
+                    }
+                },
+                "place_id": "51c8b4d8d888a4024059adba4cf8f06e4840f00101f9014c46080000000000920320416e6369656e2068c3b474656c206465204c61746f75722d4d6175626f757267"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3303391400464513,
+                    48.86672881838363
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hôtel Saint-Florentin",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75001",
+                "district": "Paris",
+                "suburb": "1st Arrondissement",
+                "city_block": "Quartier Vendôme",
+                "street": "Rue de Mondovi",
+                "lon": 2.3242525240401566,
+                "lat": 48.86670675,
+                "formatted": "Hôtel Saint-Florentin, Rue de Mondovi, 75001 Paris, France",
+                "address_line1": "Hôtel Saint-Florentin",
+                "address_line2": "Rue de Mondovi, 75001 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hôtel Saint-Florentin",
+                        "osm_id": 54177935,
+                        "alt_name": "Hôtel de Talleyrand-Périgord",
+                        "building": "yes",
+                        "historic": "manor",
+                        "osm_type": "w",
+                        "wikidata": "Q3145965",
+                        "wikipedia": "fr:Hôtel Saint-Florentin",
+                        "contact:city": "Paris",
+                        "contact:street": "Rue Saint-Florentin",
+                        "building:levels": 4,
+                        "contact:postcode": 75001,
+                        "contact:housenumber": 2
+                    }
+                },
+                "place_id": "51b1b997bec59702405969a8e875f06e4840f00102f9018fb03a030000000092031648c3b474656c205361696e742d466c6f72656e74696e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3241076364567665,
+                    48.86671327457663
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Théâtre Daunou",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75002",
+                "district": "Paris",
+                "suburb": "2nd Arrondissement",
+                "city_block": "Quartier Gaillon",
+                "street": "Rue Daunou",
+                "lon": 2.331856298373986,
+                "lat": 48.86926575,
+                "formatted": "Théâtre Daunou, Rue Daunou, 75002 Paris, France",
+                "address_line1": "Théâtre Daunou",
+                "address_line2": "Rue Daunou, 75002 Paris, France",
+                "categories": [
+                    "building",
+                    "building.entertainment",
+                    "building.historic",
+                    "entertainment",
+                    "entertainment.culture",
+                    "entertainment.culture.theatre",
+                    "heritage",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details.heritage",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Théâtre Daunou",
+                        "osm_id": 54730662,
+                        "amenity": "theatre",
+                        "ref:mhs": "PA00086098",
+                        "building": "yes",
+                        "heritage": 3,
+                        "historic": "building",
+                        "osm_type": "w",
+                        "wikidata": "Q3527446",
+                        "wikipedia": "fr:Théâtre Daunou",
+                        "contact:city": "Paris",
+                        "contact:street": "Rue Daunou",
+                        "contact:postcode": 75002,
+                        "heritage:operator": "mhs",
+                        "contact:housenumber": 7
+                    }
+                },
+                "place_id": "5101bfa97ea2a70240591f32932a446f4840f00102f901a61f4303000000009203105468c3a9c3a2747265204461756e6f75"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.331852902941933,
+                    48.86926777064604
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hôtel de Pontalba",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Rue du Faubourg Saint-Honoré",
+                "lon": 2.318337381109866,
+                "lat": 48.869323949999995,
+                "formatted": "Hôtel de Pontalba, Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+                "address_line1": "Hôtel de Pontalba",
+                "address_line2": "Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hôtel de Pontalba",
+                        "osm_id": 67106757,
+                        "building": "yes",
+                        "historic": "manor",
+                        "osm_type": "w",
+                        "wikidata": "Q3145932",
+                        "wikipedia": "fr:Hôtel de Pontalba"
+                    }
+                },
+                "place_id": "5118b13bb3fa8b02405938e0bf54466f4840f00102f901c5f7ff030000000092031248c3b474656c20646520506f6e74616c6261"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.318349266299389,
+                    48.86933383339823
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hôtel Perrinet de Jars",
+                "old_name": "Ambassade de Russie",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Rue du Faubourg Saint-Honoré",
+                "lon": 2.3199868454796047,
+                "lat": 48.86899085,
+                "formatted": "Hôtel Perrinet de Jars, Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+                "address_line1": "Hôtel Perrinet de Jars",
+                "address_line2": "Rue du Faubourg Saint-Honoré, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hôtel Perrinet de Jars",
+                        "osm_id": 67106925,
+                        "building": "yes",
+                        "historic": "manor",
+                        "old_name": "Ambassade de Russie",
+                        "osm_type": "w",
+                        "wikidata": "Q15950484",
+                        "architect": "Pierre Grandhomme",
+                        "wikipedia": "fr:Hôtel Perrinet de Jars",
+                        "start_date": 1714
+                    }
+                },
+                "place_id": "51c4014cac1c8f02405989d06c8f3a6f4840f00102f9016df8ff030000000092031748c3b474656c2050657272696e6574206465204a617273"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3198789082236733,
+                    48.8689746171304
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hôtel de Coislin",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier de la Madeleine",
+                "street": "Rue Royale",
+                "lon": 2.3219894384380346,
+                "lat": 48.867139949999995,
+                "formatted": "Hôtel de Coislin, Rue Royale, 75008 Paris, France",
+                "address_line1": "Hôtel de Coislin",
+                "address_line2": "Rue Royale, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "tourism",
+                    "tourism.sights"
+                ],
+                "details": [
+                    "details.building",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Hôtel de Coislin",
+                        "osm_id": 67109756,
+                        "building": "yes",
+                        "historic": "manor",
+                        "osm_type": "w",
+                        "wikidata": "Q15950596",
+                        "wikipedia": "fr:Hôtel de Coislin",
+                        "building:levels": 6
+                    }
+                },
+                "place_id": "51bab7a2876e930240598f160570fe6e4840f00102f9017c0300040000000092031148c3b474656c20646520436f69736c696e"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321988162663698,
+                    48.86713981865352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Statue équestre de Jeanne D'Arc",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "Quartier de l'Europe",
+                "street": "Place Saint-Augustin",
+                "lon": 2.3194462934795634,
+                "lat": 48.875444099999996,
+                "formatted": "Statue équestre de Jeanne D'Arc, Place Saint-Augustin, 75008 Paris, France",
+                "address_line1": "Statue équestre de Jeanne D'Arc",
+                "address_line2": "Place Saint-Augustin, 75008 Paris, France",
+                "categories": [
+                    "tourism",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Statue équestre de Jeanne D'Arc",
+                        "osm_id": 67501479,
+                        "historic": "monument",
+                        "osm_type": "w",
+                        "wikidata": "Q3497614",
+                        "wikipedia": "fr:Statue équestre de Jeanne d'Arc (place Saint-Augustin)"
+                    }
+                },
+                "place_id": "51c52120d5398e0240599b1b2d8e0e704840f00102f901a7fd05040000000092032053746174756520c3a971756573747265206465204a65616e6e65204427417263"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.319446244280899,
+                    48.87544419481784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Obélisque de Louxor",
+                "country": "France",
+                "country_code": "fr",
+                "region": "Metropolitan France",
+                "state": "Ile-de-France",
+                "city": "Paris",
+                "postcode": "75008",
+                "district": "Paris",
+                "suburb": "8th Arrondissement of Paris",
+                "city_block": "Quartier des Champs-Élysées",
+                "street": "Place de la Concorde",
+                "lon": 2.3211306,
+                "lat": 48.8654765,
+                "formatted": "Luxor Obelisk, Place de la Concorde, 75008 Paris, France",
+                "address_line1": "Luxor Obelisk",
+                "address_line2": "Place de la Concorde, 75008 Paris, France",
+                "categories": [
+                    "building",
+                    "building.historic",
+                    "building.tourism",
+                    "man_made",
+                    "tourism",
+                    "tourism.attraction",
+                    "tourism.sights",
+                    "tourism.sights.memorial",
+                    "tourism.sights.memorial.monument"
+                ],
+                "details": [
+                    "details",
+                    "details.building",
+                    "details.historic",
+                    "details.wiki_and_media"
+                ],
+                "datasource": {
+                    "sourcename": "openstreetmap",
+                    "attribution": "© OpenStreetMap contributors",
+                    "license": "Open Database Licence",
+                    "url": "https://www.openstreetmap.org/copyright",
+                    "raw": {
+                        "name": "Obélisque de Louxor",
+                        "height": 23,
+                        "osm_id": 72937686,
+                        "name:de": "Obelisk von Luxor",
+                        "name:en": "Luxor Obelisk",
+                        "name:es": "Obelisco de Luxor",
+                        "name:ko": "오벨리스크",
+                        "name:pt": "Obelisco de Luxor",
+                        "name:ru": "Луксорский обелиск",
+                        "name:uk": "Луксорський обеліск",
+                        "name:zh": "卢克索方尖碑",
+                        "tourism": "attraction",
+                        "building": "yes",
+                        "historic": "monument",
+                        "man_made": "obelisk",
+                        "osm_type": "w",
+                        "wikidata": "Q1503331",
+                        "wikipedia": "fr:Obélisque de Louxor",
+                        "start_date": "1836-10-25",
+                        "addr:street": "Place de la Concorde",
+                        "year_of_construction": "2000 b.C."
+                    }
+                },
+                "place_id": "5175f585ebac91024059a2e316efc76e4840f00102f901d6f05804000000009203144f62c3a96c6973717565206465204c6f75786f72"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3211305999999987,
+                    48.86547649972569
+                ]
+            }
+        }
+    ]
+}
