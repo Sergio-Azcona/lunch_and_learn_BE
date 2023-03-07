@@ -7,8 +7,6 @@ class CountriesFacade
   end
 
   def self.country_exists?(country)    
-    return nil if country == ''
-
     data = CountryService.validate_name(country)
     data.map { |info| Country.new(info) }.first.common_name if data.present? #mapping a helper method
   end
