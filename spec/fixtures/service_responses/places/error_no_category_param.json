@@ -1,0 +1,5 @@
+{
+  "statusCode": 400,
+  "error": "Bad Request",
+  "message": "\"value\" must contain at least one of [type, categories]"
+}

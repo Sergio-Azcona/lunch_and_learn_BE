@@ -56,9 +56,6 @@ RSpec.describe 'Country Service' do
       expect(response[:message]).to be_a(String)
 
       expect(response[:status]).to eq(404)
-      # require 'pry';binding.pry
-  
-  
     end
   end
 end
