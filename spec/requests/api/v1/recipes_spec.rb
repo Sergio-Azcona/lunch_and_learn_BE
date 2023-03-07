@@ -62,29 +62,23 @@ RSpec.describe 'Recipes API Responses' do
       end
 
       describe 'when country or recipes does not exists' do
-        before(:each) do
+        it 'when country is an empty string or nil, or recipies is nil, returns data with an empty array' do
           country = ''
           @json_response = File.read('spec/fixtures/request_responses/recipes/no_recipes_response.json')
           stub_request(:get, "https://localhost:3000/api/v1/recipes?country=#{country}")
             .to_return(status: 200, body: @json_response)        
-          
-        end
-
-        it 'when country is an empty string or nil, or recipies is nil, returns data with an empty array' do
           response =  JSON.parse(@json_response, symbolize_names: true)
     
           expect(response).to be_a(Hash)
           expect(response).to have_key(:data)
           expect(response.count).to eq(1)
-
+          
+          expect(response[:data].nil?).to eq(false)
           expect(response[:data]).to be_a(Array)
           expect(response[:data][0].nil?).to eq(true)
+
         end
       end
     end
   end
-
-
-
-
 end
