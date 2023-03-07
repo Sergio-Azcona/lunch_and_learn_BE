@@ -36,4 +36,9 @@ RSpec.describe 'Country Service' do
     end
   end
 
+  describe 'successful response' do
+    
+
+  end
+
 end

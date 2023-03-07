@@ -1,6 +1,7 @@
 class CountryService
   def self.validate_name(country)
     response = conn.get("/v3.1/name/#{country}")    
+    # require 'pry';binding.pry
     parse_json(response) if response.status == 200
   end
 

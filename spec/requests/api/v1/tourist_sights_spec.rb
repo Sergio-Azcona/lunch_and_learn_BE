@@ -4,7 +4,7 @@ RSpec.describe 'Tourist Sights API Responses' do
   describe 'search by country' do
     it 'response with the expected datatypes and structure' do  
 
-      json_response = File.read('spec/fixtures/request_responses/final_tourist_sights.json')
+      json_response = File.read('spec/fixtures/request_responses/tourist_sight/final_tourist_sights.json')
       stub_request(:get, 'https://api.geoapify.com/v2/places?')
       .with(query: {'apiKey' => ENV['apiKey'],'categories' => 'catering.restaurant','filter'=> 'circle:-73.4975,41.2841,12000'})      
       .to_return(status: 200, body: json_response)
