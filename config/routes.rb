@@ -6,6 +6,8 @@ Rails.application.routes.draw do
 
       resources :tourist_sights, only: [:index]
 
+      resources :learning_resources, only: [:index]
+
     end
   end
 

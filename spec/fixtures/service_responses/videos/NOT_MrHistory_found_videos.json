@@ -1,0 +1,182 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "Pwc1zpU-F6B8BkKSn-sANx2drXQ",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "US",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tgYbwC0si41pRufwMiDN8kY34FQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MkgSqYDUWA8"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-26T21:37:30Z",
+                "channelId": "UCyO3PjjeDvcLBJXbQa9SdCQ",
+                "title": "Inside Benin, Most Ambitious Country in Africa",
+                "description": "Benin republic is one of the smallest countries in Africa. Some have said it's also one of the poorest, but you know what, watch this ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MkgSqYDUWA8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MkgSqYDUWA8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MkgSqYDUWA8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Africa Views",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-26T21:37:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8tBapjQFnRUnTVvfj8GyRsHb8us",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "y4CIn0jweuc"
+            },
+            "snippet": {
+                "publishedAt": "2015-06-01T02:15:57Z",
+                "channelId": "UCmmPgObSUPw1HL2lq6H4ffA",
+                "title": "Geography Now! Benin",
+                "description": "ALRIGHT! Our first WEST AFRICAN country! BENIN http://facebook.com/GeographyNowFanpage ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/y4CIn0jweuc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/y4CIn0jweuc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/y4CIn0jweuc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Geography Now",
+                "liveBroadcastContent": "none",
+                "publishTime": "2015-06-01T02:15:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "esI5Yv4uYQguO3fqyv030JEs5rM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EKIS-uOBwPI"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-30T16:00:05Z",
+                "channelId": "UC6n_HeL8xgWIQsKsWs4KO4w",
+                "title": "Benin: A Country Armed With Powerful Spirituality | TRACKS",
+                "description": "In human cultures in general, and perhaps particularly in Africa, the landscape is the first shrine of tradition. From the sand dunes ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EKIS-uOBwPI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EKIS-uOBwPI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EKIS-uOBwPI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "TRACKS",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-30T16:00:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tN7w_NawmI4h2F6hlnuEp9oUZy4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "HD5jpGZ5uGI"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-29T17:28:55Z",
+                "channelId": "UC8p_y3iHPe-n3zRfXK2czWA",
+                "title": "Why is Nobody Traveling to Benin Republic? (My Honest Opinion)",
+                "description": "Why is Nobody Traveling to Benin Republic is a video where I share my honest review about Lagos Nigeria's neighboring country ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/HD5jpGZ5uGI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/HD5jpGZ5uGI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/HD5jpGZ5uGI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Tayo Aina",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-29T17:28:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "c4upPvuOSHAMHVksMv9TmyOZzP8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oh9X-Zf4wjQ"
+            },
+            "snippet": {
+                "publishedAt": "2020-07-05T13:00:21Z",
+                "channelId": "UCijcd0GR0fkxCAZwkiuWqtQ",
+                "title": "Deadliest Roads | Benin | Free Documentary",
+                "description": "World's Most Dangerous Roads: Deadliest Journeys in Benin in 2016 Deadliest Roads - Vietnam: https://youtu.be/o62sk4600m8 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oh9X-Zf4wjQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oh9X-Zf4wjQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oh9X-Zf4wjQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Free Documentary",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-07-05T13:00:21Z"
+            }
+        }
+    ]
+}

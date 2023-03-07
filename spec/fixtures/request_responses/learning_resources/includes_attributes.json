@@ -1,0 +1,55 @@
+{
+    "data": {
+        "id": "null",
+        "type": "learning_resources",
+        "attributes": {
+            "country": "Dominican Republic",
+            "video": {
+                "title": "A Super Quick History of the Dominican Republic",
+                "youtube_video_id": "egn4uBVuasM"
+            },
+            "images": [
+                {
+                    "alt_tag": "woman wearing red one-piece swimsuit standing beside lifeguard house",
+                    "url": "https://images.unsplash.com/photo-1551126845-508e62d1289d?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwxN3x8RG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MHx8fHwxNjc4MjE1Nzc1&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": null,
+                    "url": "https://images.unsplash.com/photo-1644799823986-6708ccdfa46f?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwyNnx8RG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MHx8fHwxNjc4MjE1Nzc1&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "aerial view of white beach",
+                    "url": "https://images.unsplash.com/photo-1524778880162-1b5dccfbdb0b?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwxfHxEb21pbmljYW4lMjBSZXB1YmxpY3xlbnwwfHx8fDE2NzgyMTU3NzU&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "green palm tree under blue sky during daytime",
+                    "url": "https://images.unsplash.com/photo-1589902814898-847a3de4f583?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwyOXx8RG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MHx8fHwxNjc4MjE1Nzc1&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "aerial view of palm trees",
+                    "url": "https://images.unsplash.com/photo-1525372371040-4df69af5f1ce?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHw2fHxEb21pbmljYW4lMjBSZXB1YmxpY3xlbnwwfHx8fDE2NzgyMTU3NzU&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "green palm tree near sea during daytime",
+                    "url": "https://images.unsplash.com/photo-1602608099803-96718a589bb3?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwxNHx8RG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MHx8fHwxNjc4MjE1Nzc1&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "a large body of water with a boat in the distance",
+                    "url": "https://images.unsplash.com/photo-1650252796198-695075415bbe?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwxMHx8RG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MHx8fHwxNjc4MjE1Nzc1&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "aerial photography of concrete city buildings",
+                    "url": "https://images.unsplash.com/photo-1511798680859-7c71d6a5ee6c?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHw0fHxEb21pbmljYW4lMjBSZXB1YmxpY3xlbnwwfHx8fDE2NzgyMTU3NzU&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "brown concrete building",
+                    "url": "https://images.unsplash.com/photo-1563804650197-e897ec7798ba?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwyOHx8RG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MHx8fHwxNjc4MjE1Nzc1&ixlib=rb-4.0.3"
+                },
+                {
+                    "alt_tag": "green trees near blue body of water during daytime",
+                    "url": "https://images.unsplash.com/photo-1617718295766-0f839c2853e7?ixid=Mnw0MTk1OTF8MHwxfHNlYXJjaHwxNXx8RG9taW5pY2FuJTIwUmVwdWJsaWN8ZW58MHx8fHwxNjc4MjE1Nzc1&ixlib=rb-4.0.3"
+                }
+            ]
+        }
+    }
+}

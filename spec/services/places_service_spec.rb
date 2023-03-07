@@ -13,6 +13,7 @@ RSpec.describe 'Places Service' do
       
         expect(response).to be_a(Hash)
         expect(response).to have_key(:features)
+        
         expect(response[:features]).to be_a(Array)
 
         response[:features].each do |feature|

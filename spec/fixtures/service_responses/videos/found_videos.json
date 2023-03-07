@@ -1,0 +1,182 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "woZr6EjoIIgLgu9bALVW1SaefAw",
+  "nextPageToken": "CAUQAA",
+  "regionCode": "US",
+  "pageInfo": {
+      "totalResults": 17,
+      "resultsPerPage": 5
+  },
+  "items": [
+      {
+          "kind": "youtube#searchResult",
+          "etag": "ybqvw5XAEqYL0s3QRFcxrGQkasM",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "017KnEN0i0U"
+          },
+          "snippet": {
+              "publishedAt": "2019-08-06T17:42:59Z",
+              "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+              "title": "A Super Quick History of Benin",
+              "description": "Pictures requiring attribution: Padonou Dotou, ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/017KnEN0i0U/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/017KnEN0i0U/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/017KnEN0i0U/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Mr History",
+              "liveBroadcastContent": "none",
+              "publishTime": "2019-08-06T17:42:59Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "RhICAgafu0g0EZdPecrJcquns3M",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "ANyZG_W4Uow"
+          },
+          "snippet": {
+              "publishedAt": "2022-08-04T22:55:30Z",
+              "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+              "title": "A Super Quick History of Nigeria",
+              "description": "Sources: “A History of Nigeria” by Toyin Falola and Matthew H. Heaton. 2008. Cambridge University Press. New York. “Nigeria: A ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/ANyZG_W4Uow/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/ANyZG_W4Uow/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/ANyZG_W4Uow/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Mr History",
+              "liveBroadcastContent": "none",
+              "publishTime": "2022-08-04T22:55:30Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "x-cPWdrLCtLGEBbh7MKqxmSIEtc",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "PoRIGAkm6sQ"
+          },
+          "snippet": {
+              "publishedAt": "2019-10-04T06:58:30Z",
+              "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+              "title": "A Super Quick History of Cameroon",
+              "description": "Pictures Requiring Attribution: Ismoon (talk) 11:15, 6 December 2012 (UTC): https://commons.wikimedia.org/wiki/File:Sao_culture ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/PoRIGAkm6sQ/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/PoRIGAkm6sQ/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/PoRIGAkm6sQ/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Mr History",
+              "liveBroadcastContent": "none",
+              "publishTime": "2019-10-04T06:58:30Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "9u6Z6MvhUUaTAJmiAIxI2hvi_fA",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "PTSlC-5Qp7o"
+          },
+          "snippet": {
+              "publishedAt": "2019-12-17T19:38:23Z",
+              "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+              "title": "A Super Quick History of Comoros",
+              "description": "Pictures Requiring Attribution: Radosław Botev: https://commons.wikimedia.org/wiki/File:Grande_Comore_nature_2.jpg ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/PTSlC-5Qp7o/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/PTSlC-5Qp7o/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/PTSlC-5Qp7o/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Mr History",
+              "liveBroadcastContent": "none",
+              "publishTime": "2019-12-17T19:38:23Z"
+          }
+      },
+      {
+          "kind": "youtube#searchResult",
+          "etag": "0fTW_QF5pVxdBXrV0bTA-TW1NgU",
+          "id": {
+              "kind": "youtube#video",
+              "videoId": "Yfe30QIm7d0"
+          },
+          "snippet": {
+              "publishedAt": "2019-10-21T18:15:21Z",
+              "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+              "title": "A Super Quick History of Cape Verde",
+              "description": "Pictures Requiring Attribution: Ji-Elle: https://commons.wikimedia.org/wiki/File:Praia-Aloe_vera.jpg Patrick Savalle: ...",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://i.ytimg.com/vi/Yfe30QIm7d0/default.jpg",
+                      "width": 120,
+                      "height": 90
+                  },
+                  "medium": {
+                      "url": "https://i.ytimg.com/vi/Yfe30QIm7d0/mqdefault.jpg",
+                      "width": 320,
+                      "height": 180
+                  },
+                  "high": {
+                      "url": "https://i.ytimg.com/vi/Yfe30QIm7d0/hqdefault.jpg",
+                      "width": 480,
+                      "height": 360
+                  }
+              },
+              "channelTitle": "Mr History",
+              "liveBroadcastContent": "none",
+              "publishTime": "2019-10-21T18:15:21Z"
+          }
+      }
+  ]
+}
