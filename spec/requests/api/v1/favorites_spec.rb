@@ -54,8 +54,6 @@ RSpec.describe 'favorited Responses' do
       it 'response with attributes when favorites are present' do  
         json_response = File.read('spec/fixtures/request_responses/favorites/get_successful_attributes.json')
 
-        user = Favorite.first.user
-
         stub_request(:get, "http://localhost:3000/api/v1/favorites?api_key=#{Favorite.first.user.api_key}")
           .to_return(body: json_response)   
           
