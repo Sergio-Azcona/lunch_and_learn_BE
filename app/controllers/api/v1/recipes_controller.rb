@@ -9,7 +9,7 @@ class Api::V1::RecipesController < ApplicationController
     if valid_country && recipies.present?
       render json: RecipeSerializer.recipies_index_response(valid_country, recipies)
     else
-      render json: RecipeSerializer.no_recipes_found
+      render json: RecipeSerializer.no_recipes_found, status: 404
     end
   end
 end
