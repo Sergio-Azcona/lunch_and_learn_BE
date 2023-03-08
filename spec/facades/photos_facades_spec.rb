@@ -1,7 +1,9 @@
 # require 'rails_helper'
 
 # RSpec.describe 'Photos Facade' do
-#   before(:each) do
+#   # before(:each) do
+#     it 'returns an array ordered by :likes' do
+#       @request = PhotosFacade.image_search('aruba')
 #     stub_request(:get, "https://api.unsplash.com/search/photos?client_id=ACSDvOULHchgCZzn4uYQS4_BhaxvY9SQu2BwyvKr-eo&page=1&per_page=100&query=aruba").
 #          with(
 #            headers: {
@@ -12,11 +14,11 @@
 #          to_return(status: 200, body:  @request, headers: {})
 
 #     @request = PhotosFacade.image_search('aruba')
-#   end
+#   # end
 
-#   it 'returns an array ordered by :likes' do
+#   # it 'returns an array ordered by :likes' do
 
-#   expect( @request).to be_a(Array)
+#   # expect( @request).to be_a(Array)
 #   require 'pry';binding.pry
 #   # expect(request[0].next[:likes]).to be >=(request[1].next[:likes])
 
