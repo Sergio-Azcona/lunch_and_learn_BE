@@ -1,7 +1,7 @@
 class CountriesFacade
   def self.return_random_country
     data = CountryService.all_countries
-    
+    # require 'pry';binding.pry
     country_name = data.map { |info| Country.new(info) } 
     country_name.sample.common_name
   end
@@ -13,7 +13,11 @@ class CountriesFacade
 
 
   def self.validate_input?(country)
-    if country.nil? 
+    # require 'pry';binding.pry
+
+    if country ==  ''
+      return nil 
+    elsif country.nil? 
       self.return_random_country 
     else
       self.country_exists?(country)
