@@ -5,7 +5,7 @@ class ErrorSerializer
         "errors":
         [ 
           {
-          "error_message": error.first.to_s,
+          "error_message":  error.message,
           "status": status_code.to_s, 
           } 
         ]
