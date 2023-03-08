@@ -8,6 +8,9 @@ class Api::V1::LearningResourcesController < ApplicationController
     if valid_country.present?
       video = VideosFacade.youtube_search(valid_country) 
       photos = PhotosFacade.image_search(valid_country) 
+    else
+      #if not a valid country, rest the variable to the input to return to FE so they can see what they searched
+      valid_country = country 
     end
 
     render json: LearningResourceSerializer.country_show_response(valid_country, video, photos)
