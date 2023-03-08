@@ -11,10 +11,10 @@ RSpec.describe 'users#create Responses' do
       
       stub_request(:post, 'http://localhost:3000/api/v1/users')
         .with(query: {'name'=> name, 'email'=> email})
-        .to_return(status: 201, body: json_response)        
+        .to_return(body: json_response)        
       
       response =  JSON.parse(json_response, symbolize_names: true)
-      # require 'pry';binding.pry
+      
       expect(response).to be_a(Hash)
       expect(response.keys).to eq([:data])
 
@@ -44,7 +44,7 @@ RSpec.describe 'users#create Responses' do
       user_params = ({'name'=> name, 'email'=> email})
 
       stub_request(:post, 'http://localhost:3000/api/v1/users')
-        .to_return(status: 400, body: json_response)        
+        .to_return(body: json_response)        
       
       response =  JSON.parse(json_response, symbolize_names: true)
       # require 'pry';binding.pry
@@ -62,7 +62,7 @@ RSpec.describe 'users#create Responses' do
       expect(response[:errors][0][:error_message]).to be_a(String)
       expect(response[:errors][0][:status]).to be_a(String)
 
-      expect(response[:errors][0][:status]).to eq('400')
+      expect(response[:errors][0][:status]).to eq('422')
     end
 
 
