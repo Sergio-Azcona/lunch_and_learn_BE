@@ -1,8 +1,8 @@
 {
   "errors": [
       {
-          "error_message": "has already been taken",
-          "status": "400"
+          "error_message": "Validation failed: Email has already been taken",
+          "status": "422"
       }
   ]
 }
