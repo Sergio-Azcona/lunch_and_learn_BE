@@ -49,7 +49,6 @@ RSpec.describe 'Learning Resources API Responses' do
             
             expect(response[:data][:attributes][:images][0][:alt_tag]).to be_a(String)
             expect(response[:data][:attributes][:images][0][:url]).to be_a(String)
-
           end
         end
 
