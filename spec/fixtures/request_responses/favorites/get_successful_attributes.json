@@ -1,0 +1,64 @@
+{
+  "data": [
+      {
+          "id": 1,
+          "type": "favorite",
+          "attributes": {
+              "recipe_title": "Sushi",
+              "recipe_link": "http://volkman.name/hilario",
+              "country": "Greece",
+              "created_at": "2023-03-08T09:35:45.126Z"
+          }
+      },
+      {
+          "id": 4,
+          "type": "favorite",
+          "attributes": {
+              "recipe_title": "Cauliflower Penne",
+              "recipe_link": "http://mccullough-damore.org/ellyn",
+              "country": "Gambia",
+              "created_at": "2023-03-08T09:38:07.658Z"
+          }
+      },
+      {
+          "id": 5,
+          "type": "favorite",
+          "attributes": {
+              "recipe_title": "pan con queso",
+              "recipe_link": "http://mccullough-damore.org/ellyn/pan_con_queso",
+              "country": "DR",
+              "created_at": "2023-03-08T09:38:39.442Z"
+          }
+      },
+      {
+          "id": 6,
+          "type": "favorite",
+          "attributes": {
+              "recipe_title": "tacos",
+              "recipe_link": "http://mccullough-damore.org/ellyn/tacos",
+              "country": "Mexico",
+              "created_at": "2023-03-08T09:38:59.841Z"
+          }
+      },
+      {
+          "id": 7,
+          "type": "favorite",
+          "attributes": {
+              "recipe_title": "tacos",
+              "recipe_link": "http://mccullough-damore.org/ellyn/tacos",
+              "country": "Mexico",
+              "created_at": "2023-03-08T09:39:28.156Z"
+          }
+      },
+      {
+          "id": 8,
+          "type": "favorite",
+          "attributes": {
+              "recipe_title": "pasta with butter",
+              "recipe_link": "http://mccullough-damore.org/ellyn/pasta",
+              "country": "Italy",
+              "created_at": "2023-03-08T09:40:05.506Z"
+          }
+      }
+  ]
+}

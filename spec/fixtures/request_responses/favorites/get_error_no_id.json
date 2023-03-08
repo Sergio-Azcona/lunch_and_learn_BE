@@ -1,0 +1,8 @@
+{
+  "errors": [
+      {
+          "error_message": "undefined method `favorites' for nil:NilClass",
+          "status": "404"
+      }
+  ]
+}
