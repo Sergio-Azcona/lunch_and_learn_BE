@@ -2,7 +2,7 @@
   "errors": [
       {
           "error_message": "has already been taken",
-          "status": "422"
+          "status": "400"
       }
   ]
 }
