@@ -6,7 +6,8 @@ RSpec.describe 'Photo Service' do
       @country =  'france'
     
       @json_response = File.read('spec/fixtures/service_responses/photos/success_photo_return.json')
-      stub_request(:get, "https://restcountries.com/v3.1/name/#{@country}")
+      stub_request(:get, "https://api.unsplash.com/search/photos?")
+      .with(query: {'client_id' => ENV['access_key'],'page' => '1','per_page'=> '100','query'=> @country} )      
       .to_return(status: 200, body: @json_response)
     end
     
