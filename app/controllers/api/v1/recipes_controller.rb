@@ -2,8 +2,7 @@ class Api::V1::RecipesController < ApplicationController
   def index
     country = params[:country]
     
-    valid_country = CountriesFacade.validate_input?(country) #if country.present?
-    # require 'pry';binding.pry
+    valid_country = CountriesFacade.validate_input?(country) unless country == ''
 
     recipies = RecipesFacade.country_search(valid_country) if valid_country.present?
 

@@ -13,14 +13,10 @@ class CountriesFacade
 
 
   def self.validate_input?(country)
-    # require 'pry';binding.pry
-
-    if country ==  ''
-      return nil 
-    elsif country.nil? 
-      self.return_random_country 
-    else
+    if country.present? 
       self.country_exists?(country)
+    else
+      self.return_random_country 
     end
   end
 
