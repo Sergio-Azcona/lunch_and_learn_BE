@@ -2,16 +2,11 @@ class PhotosFacade
   def self.image_search(valid_country)
     images = PhotoService.unsplash_search(valid_country)
     
-    all_photos = images[:results].map do |image|
+    top_photos = images[:results].sort_by!{ |pic| pic[:likes] }.reverse.first(10) if images[:total_pages] > 0 
+
+    top_photos = images[:results].map do |image|
       Photo.new(image)
     end
 
-    if all_photos.nil?
-      {}
-    else
-      all_photos.sort_by!{ |i|i.likes }.reverse.first(10) if images[:total_pages] >= 1 
-    end
-    # require 'pry';binding.pry
-    # all_photos
   end
 end

@@ -3,7 +3,6 @@ class Photo
   def initialize(data)
     @alt_tag = data[:alt_description].to_json
     @url = data[:urls][:raw].to_json
-    @likes = data[:likes]
   end
 
 
