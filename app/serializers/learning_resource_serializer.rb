@@ -10,15 +10,8 @@ class LearningResourceSerializer
             "attributes":  
                         {
                         "country": country,
-                        
-                          "video": video.to_h
-                          # {
-                          #       "title": video.title,
-                          #       "youtube_video_id": video.youtube_video_id
-                          # }
-                        
-                      
-    #                       "images": photos.to_json
+                          "video": video,#.to_h# unless video.present?
+                          "images": photos
                         }
             }
     }

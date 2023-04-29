@@ -11,6 +11,7 @@ class PhotosFacade
     else
       all_photos.sort_by!{ |i|i.likes }.reverse.first(10) if images[:total_pages] >= 1 
     end
-
+    # require 'pry';binding.pry
+    # all_photos
   end
 end
