@@ -4,9 +4,6 @@ class PhotosFacade
     
     top_photos = images[:results].sort_by!{ |pic| pic[:likes] }.reverse.first(10) if images[:total_pages] > 0 
 
-    top_photos = images[:results].map do |image|
-      Photo.new(image)
-    end
-
+    top_photos.map { |image| Photo.new(image) }
   end
 end
