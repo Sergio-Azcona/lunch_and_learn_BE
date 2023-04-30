@@ -1,6 +1,8 @@
 ![alt text](app/assets/LnL_logo.webp)
+<a name="readme-top"></a>
 
 <br>
+<a name="table-of-contents"></a>
 <details>
   <summary>Lunch and Learn Table of Contents</summary>
   <ul list-style-position="inside">
@@ -46,6 +48,8 @@ The project is designed using Service Oriented Architecture, with this app servi
   <li>popular photo images of the country from Unsplash</li>
 </ul>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Schema
 Users: A users must have a unique email address. We create an API key for each user. Users can have many favorite recipes. 
 
@@ -54,6 +58,7 @@ Favorites: we store the title, url, and the country that relates to the recipes.
 ![alt text](app/assets/Readme_Lunch_N_Learn_Schema.png)
 
 <!-- SPECS AND DEPLOYMENT INSTRUCTIONS -->
+
 ## Specs and Deployment instructions
 Ruby & Rails version:
   ```
@@ -70,7 +75,6 @@ To run the app locally run the following 4 commands in your termianl :
 Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 
 ## Endpoints
-
 <details close>
   <summary><strong>Creating Users and Favorites</strong></summary>
   <details>
@@ -104,7 +108,6 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
     </ul>
   </details>
 </details>
-
 <details close>
  <summary><strong>Recipes, Learning Resources, and User's Favorites</strong></summary>
   <br>
@@ -131,6 +134,7 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
       <li>Note: in the event that no recipes exest, an empty data array is returned </li> 
     </ul>
   </details>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
   <br>
   <details>
     <summary><strong>Learning Resources</strong></summary>
@@ -167,3 +171,5 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
     </ul>
   </details>
 </details>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
