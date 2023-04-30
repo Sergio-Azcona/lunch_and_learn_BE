@@ -108,3 +108,29 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
       </ul>
   </details>
 </details>
+
+<details close>
+ <summary><strong>Endpoints for recipes, learning resources, and user favorites </strong></summary>
+
+  <details>
+  <summary><strong>Recipes</strong></summary>
+      Recipes can be search by country or by letting the app select a country for them
+      <ul>
+        <li>Users require a name (passed as a query param)</li>
+        <li>search by country API Endpoint (country, thailand in this eqample, is passed as a query param): <i>http://localhost:3000/api/v1/recipes?country=thailand</i></li>
+         <li>Happy Path - User is SUCCESSFULLY created</li>
+        <img src="app/assets/user_create_happy_path.png">
+      
+      </ul>
+
+
+      Request/Response:
+      <ul>
+      <li>Happy Path - User is SUCCESSFULLY created</li>
+      <img src="app/assets/user_create_happy_path.png">
+      <li>Sad Path - User was NOT created</li>
+      <img src="app/assets/user_create_sad_path.png">
+      </ul>
+  </details>
+
+</details>

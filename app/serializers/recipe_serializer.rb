@@ -20,9 +20,20 @@ class RecipeSerializer
     }
   end  
 
-  def self.no_recipes_found(country)
+  def self.no_recipes_found
     {
       "data": []
+    }
+  end
+
+  def self.country_error(country)
+    {
+        "errors":
+        [ 
+          {
+          "error_message":  "#{country} does not exist",
+          } 
+        ]
     }
   end
 end
