@@ -75,20 +75,36 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 
 ## Endpoints
 
-
-<details>
-  <summary><strong>Users</strong></summary>
-  Creating a user:
-  <ul style="list-style-type:none">
-    <li>Users require a name and unique email address</li>
-    <li>API Endpoint: <i>http://localhost:3000/api/v1/users </i></li>
-  </ul>
-  Request/Response:
-  <ul style="list-style-type:none">
-  <li>Happy Path - User is SUCCESSFULLY created</li>
-  <img src="app/assets/user_create_happy_path.png">
-  <li>Sad Path - User was NOT created</li>
-  <img src="app/assets/user_create_sad_path.png">
-  </ul>
+<details close>
+  <summary><strong>Creating Users and Favorites</strong></summary>
+  <details>
+    <summary><strong>Users</strong></summary>
+      Creating a user:
+      <ul style="list-style-type: none">
+        <li>Users require a name and unique email address</li>
+        <li>API Endpoint: <i>http://localhost:3000/api/v1/users </i></li>
+      </ul>
+      Request/Response:
+      <ul style="list-style-type: none">
+      <li>Happy Path - User is SUCCESSFULLY created</li>
+      <img src="app/assets/user_create_happy_path.png">
+      <li>Sad Path - User was NOT created</li>
+      <img src="app/assets/user_create_sad_path.png">
+      </ul>
+  </details>
+  <details>
+    <summary><strong>Favorites</strong></summary>
+      Creating a favorite:
+      <ul style="list-style-type: none">
+        <li>data required: recipe title, recipe url, country and user's api key</li>
+        <li>API Endpoint: <i>http://localhost:3000/api/v1/favorites</i></li>
+      </ul>
+      Request/Response:
+      <ul style="list-style-type: none">
+      <li>Happy Path - favorite is SUCCESSFULLY created</li>
+      <img src="app/assets/favorite_happy_path.png">
+      <li>Sad Path - favorite was NOT created</li>
+      <img src="app/assets/favorite_sad_path.png">
+      </ul>
+  </details>
 </details>
-
