@@ -72,7 +72,7 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 ## Endpoints
 
 <details close>
-  <summary><strong>Creating Users and Favorites</strong></summary>
+  <summary><strong>Creating Users and Favorites (Post Functionality)</strong></summary>
   <details>
     <summary><strong>Users</strong></summary>
     Creating a user:
@@ -83,9 +83,9 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
     Request/Response:
     <ul style="list-style-type: none">
       <li>Happy Path - User is SUCCESSFULLY created</li>
-      <img src="app/assets/user_create_happy_path.png">
+      <img src="app/assets/users_create/user_create_happy_path.png">
       <li>Sad Path - User was NOT created</li>
-      <img src="app/assets/user_create_sad_path.png">
+      <img src="app/assets/users_create/user_create_sad_path.png">
     </ul>
   </details>
   <details>
@@ -98,15 +98,15 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
     Request/Response:
     <ul style="list-style-type: none">
       <li>Happy Path - favorite is SUCCESSFULLY created</li>
-      <img src="app/assets/favorite_happy_path.png">
+      <img src="app/assets/favorites_create/favorite_happy_path.png">
       <li>Sad Path - favorite was NOT created</li>
-      <img src="app/assets/favorite_sad_path.png">
+      <img src="app/assets/favorites_create/favorite_sad_path.png">
     </ul>
   </details>
 </details>
 
 <details close>
- <summary><strong>Recipes, Learning Resources, and User's Favorites </strong></summary>
+ <summary><strong>Recipes, Learning Resources, and User's Favorites (Get Functionality)</strong></summary>
   <br>
   <details>
   <summary><strong>Recipes</strong></summary>
