@@ -75,21 +75,20 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 
 ## Endpoints
 
-### Users
-Creat a user: 
-``` http://localhost:3000/api/v1/users ```
-
 
 <details>
-  <summary> Users</summary>
-  <ul list-style-position="inside; no-bullets">
+  <summary><strong>Users</strong></summary>
+  Creating a user:
+  <ul style="list-style-type:none">
     <li>Users require a name and unique email address</li>
-    <li>API Endpoint:``` http://localhost:3000/api/v1/users ```<li>    
-    <li>Successful request/response: 
-    ![alt text](app/assets/user_create_happy_path.png) </li>
-
-    <li>Unsuccessful request:
-    ![alt text](app/assets/user_create_sad_path.png) 
-     </li>
+    <li>API Endpoint: <i>http://localhost:3000/api/v1/users </i></li>
+  </ul>
+  Request/Response:
+  <ul style="list-style-type:none">
+  <li>Happy Path - User is SUCCESSFULLY created</li>
+  <img src="app/assets/user_create_happy_path.png">
+  <li>Sad Path - User was NOT created</li>
+  <img src="app/assets/user_create_sad_path.png">
   </ul>
 </details>
+
