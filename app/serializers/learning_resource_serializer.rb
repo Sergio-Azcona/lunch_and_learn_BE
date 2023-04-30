@@ -10,7 +10,7 @@ class LearningResourceSerializer
             "attributes":  
                         {
                         "country": country,
-                          "video": video,#.to_h# unless video.present?
+                          "video": video,
                           "images": photos
                         }
             }
