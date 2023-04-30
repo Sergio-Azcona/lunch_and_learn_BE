@@ -108,3 +108,32 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
       </ul>
   </details>
 </details>
+
+<details close>
+ <summary><strong>Recipes, Learning Resources, and User Favorites </strong></summary>
+
+  <details>
+  <summary><strong>Recipes</strong></summary>
+      Recipes can be search by country or by letting the app select a country for them. <br>
+      <strong>Happy Paths</strong> noted below - 
+      <ul>
+        <li>Searching by country: pass a country name as a query param to the endpoint<br> 
+        <i>http://localhost:3000/api/v1/recipes?country=country_name</i></li>
+        <li>example: search results for thailand: <br> 
+        <i>http://localhost:3000/api/v1/recipes?country=thailand</i></li>
+        <img src="app/assets/recipes/recipes_happy_path.png">
+        <li>Random Searching: no country is passed in the query parms; endpoint<br> 
+        <i>http://localhost:3000/api/v1/recipes</i></li>
+         <img src="app/assets/recipes/recipes_random_country.png">
+       <li>Random Searching: no country is passed in the query parms; endpoint<br> 
+      </ul>
+      <hr>
+      <ul>
+      <strong>Sad Paths</strong>:
+        <li>Response when a country name is invalid:</li> 
+        <img src="app/assets/recipes/recipes_invalid_country_name.png">
+       <li>Note: in the event that no recipes exest, an empty data array is returned </li> 
+      </ul>
+  </details>
+
+</details>
