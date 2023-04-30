@@ -3,10 +3,8 @@ class Api::V1::RecipesController < ApplicationController
     country = params[:country]
     # require 'pry';binding.pry
     valid_country = CountriesFacade.validate_input?(country) unless country == ''
-    # require 'pry';binding.pry 
-    # if valid_country.present?
-      recipies = RecipesFacade.country_search(valid_country) unless valid_country.nil? 
-    # end
+    
+    recipies = RecipesFacade.country_search(valid_country) unless valid_country.nil? 
 
     if valid_country && recipies.present?
       render json: RecipeSerializer.recipies_index_response(valid_country, recipies)
