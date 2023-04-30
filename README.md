@@ -111,11 +111,11 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 
 <details close>
  <summary><strong>Recipes, Learning Resources, and User Favorites </strong></summary>
-
+  <br>
   <details>
   <summary><strong>Recipes</strong></summary>
-      Recipes can be search by country or by letting the app select a country for them. <br>
       <strong>Happy Paths</strong> noted below - 
+      Recipes can be search by country or by letting the app select a country for them. <br>
       <ul>
         <li>Searching by country: pass a country name as a query param to the endpoint<br> 
         <i>http://localhost:3000/api/v1/recipes?country=country_name</i></li>
@@ -134,6 +134,23 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
         <img src="app/assets/recipes/recipes_invalid_country_name.png">
        <li>Note: in the event that no recipes exest, an empty data array is returned </li> 
       </ul>
+  </details>
+  
+  <br>
+  <details>
+  <summary><strong>Learning Resources</strong></summary>
+  <ul>
+    <strong>Happy Paths</strong>:
+      <li>Searching by country: pass a country name as a query param to the endpoint (name can partial or full)<br> 
+      <i>http://localhost:3000/api/v1/learning_resources?country=country_name</i></li>
+      <li>example: search results for marsh, which returns responses for Marshall Islands: <br> 
+      <i>http://localhost:3000/api/v1/learning_resources?country=marsh</i></li>
+      <img src="app/assets/learning_resources/learning_resources_data_found.png">
+      <hr>
+      <strong>Sad Paths</strong>:
+      <li>Response when a country name is invalid:</li> 
+      <img src="app/assets/learning_resources/learning_resources_no_entries.png">
+    </ul>
   </details>
 
 </details>
