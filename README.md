@@ -1,5 +1,7 @@
-![alt text](app/assets/LnL logo.webp)
+# Lunch and Learn
+![alt text](app/assets/LnL_logo.webp)
 
+app/assets/LnL logo Medium.jpeg
 <br>
 <details>
   <summary>Table of Contents</summary>
