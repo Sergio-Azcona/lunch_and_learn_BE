@@ -14,10 +14,6 @@
     </li>
     <li>
       <a href="#specs-and-deployment-instructions">Specs and Deployment instructions</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li>
       <a href="#usage">Usage</a>
@@ -42,7 +38,7 @@ The project is designed using Service Oriented Architecture, with this app servi
   <li>Test, both, API consumption and exposure using a mocking tool (Webmock)</li>
 </ul>
 
-### APIs Consumes
+### APIs Consumed
 <ul>
   <li>country input is varified by using Restcountries</li>
   <li>recipes from Edamam</li>
@@ -79,68 +75,67 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
   <summary><strong>Creating Users and Favorites</strong></summary>
   <details>
     <summary><strong>Users</strong></summary>
-      Creating a user:
-      <ul style="list-style-type: none">
-        <li>Users require a name and unique email address</li>
-        <li>API Endpoint: <i>http://localhost:3000/api/v1/users </i></li>
-      </ul>
-      Request/Response:
-      <ul style="list-style-type: none">
+    Creating a user:
+    <ul style="list-style-type: none">
+      <li>Users require a name and unique email address</li>
+      <li>API Endpoint: <i>http://localhost:3000/api/v1/users </i></li>
+    </ul>
+    Request/Response:
+    <ul style="list-style-type: none">
       <li>Happy Path - User is SUCCESSFULLY created</li>
-      <img src="app/assets/user_create_happy_path.png">
+      <img src="app/assets/users_create/user_create_happy_path.png">
       <li>Sad Path - User was NOT created</li>
-      <img src="app/assets/user_create_sad_path.png">
-      </ul>
+      <img src="app/assets/users_create/user_create_sad_path.png">
+    </ul>
   </details>
   <details>
     <summary><strong>Favorites</strong></summary>
-      Creating a favorite:
-      <ul style="list-style-type: none">
-        <li>data required: recipe title, recipe url, country and user's api key</li>
-        <li>API Endpoint: <i>http://localhost:3000/api/v1/favorites</i></li>
-      </ul>
-      Request/Response:
-      <ul style="list-style-type: none">
+    Creating a favorite:
+    <ul style="list-style-type: none">
+      <li>data required: recipe title, recipe url, country and user's api key</li>
+      <li>API Endpoint: <i>http://localhost:3000/api/v1/favorites</i></li>
+    </ul>
+    Request/Response:
+    <ul style="list-style-type: none">
       <li>Happy Path - favorite is SUCCESSFULLY created</li>
-      <img src="app/assets/favorite_happy_path.png">
+      <img src="app/assets/favorites_create/favorite_happy_path.png">
       <li>Sad Path - favorite was NOT created</li>
-      <img src="app/assets/favorite_sad_path.png">
-      </ul>
+      <img src="app/assets/favorites_create/favorite_sad_path.png">
+    </ul>
   </details>
 </details>
 
 <details close>
- <summary><strong>Recipes, Learning Resources, and User Favorites </strong></summary>
+ <summary><strong>Recipes, Learning Resources, and User's Favorites</strong></summary>
   <br>
   <details>
   <summary><strong>Recipes</strong></summary>
-      <strong>Happy Paths</strong> noted below - 
-      Recipes can be search by country or by letting the app select a country for them. <br>
-      <ul>
-        <li>Searching by country: pass a country name as a query param to the endpoint<br> 
-        <i>http://localhost:3000/api/v1/recipes?country=country_name</i></li>
-        <li>example: search results for thailand: <br> 
-        <i>http://localhost:3000/api/v1/recipes?country=thailand</i></li>
-        <img src="app/assets/recipes/recipes_happy_path.png">
-        <li>Random Searching: no country is passed in the query parms; endpoint<br> 
-        <i>http://localhost:3000/api/v1/recipes</i></li>
-         <img src="app/assets/recipes/recipes_random_country.png">
-       <li>Random Searching: no country is passed in the query parms; endpoint<br> 
-      </ul>
-      <hr>
-      <ul>
+    <strong>Happy Paths</strong> 
+    Recipes can be search by country or by letting the app select a country for them. <br>
+    <ul>
+      <li>Searching by country: pass a country name as a query param to the endpoint<br> 
+      <i>http://localhost:3000/api/v1/recipes?country=country_name</i></li>
+      <li>example: search results for thailand: <br> 
+      <i>http://localhost:3000/api/v1/recipes?country=thailand</i></li>
+      <img src="app/assets/recipes/recipes_happy_path.png">
+      <li>Random Searching: no country is passed in the query parms; endpoint<br> 
+      <i>http://localhost:3000/api/v1/recipes</i></li>
+        <img src="app/assets/recipes/recipes_random_country.png">
+      <li>Random Searching: no country is passed in the query parms; endpoint<br> 
+    </ul>
+    <hr>
+    <ul>
       <strong>Sad Paths</strong>:
-        <li>Response when a country name is invalid:</li> 
-        <img src="app/assets/recipes/recipes_invalid_country_name.png">
-       <li>Note: in the event that no recipes exest, an empty data array is returned </li> 
-      </ul>
+      <li>Response when a country name is invalid:</li> 
+      <img src="app/assets/recipes/recipes_invalid_country_name.png">
+      <li>Note: in the event that no recipes exest, an empty data array is returned </li> 
+    </ul>
   </details>
-  
   <br>
   <details>
-  <summary><strong>Learning Resources</strong></summary>
-  <ul>
-    <strong>Happy Paths</strong>:
+    <summary><strong>Learning Resources</strong></summary>
+    <ul>
+      <strong>Happy Paths</strong>:
       <li>Searching by country: pass a country name as a query param to the endpoint (name can partial or full)<br> 
       <i>http://localhost:3000/api/v1/learning_resources?country=country_name</i></li>
       <li>example: search results for marsh, which returns responses for Marshall Islands: <br> 
@@ -150,7 +145,25 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
       <strong>Sad Paths</strong>:
       <li>Response when a country name is invalid:</li> 
       <img src="app/assets/learning_resources/learning_resources_no_entries.png">
+      </ul>
+  </details>
+  <br>
+  <details>
+    <summary><strong>User's Favorites</strong></summary>
+    <ul>
+      <strong>Happy Paths</strong>:
+      <li>The url must include the users api_key in the query param<br> 
+      <i>http://localhost:3000/api/v1/favorites?api_key=user_api_key</i></li>
+      <li>Response when user has favorites: </li>
+      <img src="app/assets/user_favorites/user_favorites_has_data.png">
+      <li>Response when valid user does not have favorites:</li> 
+      <img src="app/assets/user_favorites/user_fav_no_data.png">
+    </ul>
+    <hr>
+    <ul>
+      <strong>Sad Paths</strong>:
+      <li>Response when no api key or invalid api_key is passed</li>
+      <img src="app/assets/user_favorites/user_fav_sad.png">
     </ul>
   </details>
-
 </details>
