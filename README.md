@@ -38,7 +38,7 @@ The project is designed using Service Oriented Architecture, with this app servi
   <li>Test, both, API consumption and exposure using a mocking tool (Webmock)</li>
 </ul>
 
-### APIs Consumes
+### APIs Consumed
 <ul>
   <li>country input is varified by using Restcountries</li>
   <li>recipes from Edamam</li>
@@ -72,7 +72,7 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 ## Endpoints
 
 <details close>
-  <summary><strong>Creating Users and Favorites (Post Functionality)</strong></summary>
+  <summary><strong>Creating Users and Favorites</strong></summary>
   <details>
     <summary><strong>Users</strong></summary>
     Creating a user:
@@ -106,7 +106,7 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 </details>
 
 <details close>
- <summary><strong>Recipes, Learning Resources, and User's Favorites (Get Functionality)</strong></summary>
+ <summary><strong>Recipes, Learning Resources, and User's Favorites</strong></summary>
   <br>
   <details>
   <summary><strong>Recipes</strong></summary>
