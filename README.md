@@ -1,13 +1,11 @@
-# Lunch and Learn
 ![alt text](app/assets/LnL_logo.webp)
 
-app/assets/LnL logo Medium.jpeg
 <br>
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Lunch and Learn Table of Contents</summary>
   <ul list-style-position="inside">
     <li>
-      <a href="#app-overview">App Overview</a>
+      <a href="#lunch-and-learn-app-overview">Lunch and Learn App Overview</a>
       <ul>
         <li><a href="#learning-goals">Learning Goals</a></li>
         <li><a href="#apis-consumed">APIs Consumed</a></li>
@@ -30,8 +28,8 @@ app/assets/LnL logo Medium.jpeg
   </ul>
 </details>
 
-<!-- APP OVERVIEW -->
-## App Overview
+<!-- LUNCH AND LEARN APP OVERVIEW -->
+## Lunch and Learn App Overview
 The overarching goal of the project is to allow users to explore cuisines through a simple country search, save their favorite recipes for later, and provide educational material related to the cuisine's country. 
 
 The project is designed using Service Oriented Architecture, with this app serving as the backend service.
@@ -77,3 +75,21 @@ Additionally, you can now run the test suite: $ ```bundle exec rspec spec```
 
 ## Endpoints
 
+### Users
+Creat a user: 
+``` http://localhost:3000/api/v1/users ```
+
+
+<details>
+  <summary> Users</summary>
+  <ul list-style-position="inside; no-bullets">
+    <li>Users require a name and unique email address</li>
+    <li>API Endpoint:``` http://localhost:3000/api/v1/users ```<li>    
+    <li>Successful request/response: 
+    ![alt text](app/assets/user_create_happy_path.png) </li>
+
+    <li>Unsuccessful request:
+    ![alt text](app/assets/user_create_sad_path.png) 
+     </li>
+  </ul>
+</details>
