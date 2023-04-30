@@ -20,7 +20,7 @@ class RecipeSerializer
     }
   end  
 
-  def self.no_recipes_found
+  def self.no_recipes_found(country)
     {
       "data": []
     }
