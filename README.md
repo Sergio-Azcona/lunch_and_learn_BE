@@ -82,7 +82,7 @@ Creat a user:
 
 <details>
   <summary> Users</summary>
-  <ul list-style-position="inside; no-bullets">
+  <ul style="no-bullets">
     <li>Users require a name and unique email address</li>
     <li>API Endpoint:``` http://localhost:3000/api/v1/users ```<li>    
     <li>Successful request/response: 
